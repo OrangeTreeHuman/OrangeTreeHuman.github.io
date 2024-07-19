@@ -1,0 +1,107 @@
+* {
+box-sizing: border-box
+}
+
+body {
+font-family: Arial;
+background-color: rgb(112, 112, 112);
+} /* consider changing to white the webpage looks dull*/ 
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+Buy {
+border-style: solid; 
+border-color: red
+}  /*Doesn't work no idea why*/ 
+ /*consider making dashed border*/ 
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: gray;
+  }
+  
+  .active {
+    background-color: black;
+  }
+ /* 
+ img {
+   
+  }
+*/
+  .Image1 {
+background-position: left;
+background-repeat: no-repeat;
+height: 300px;
+width: 300px;
+  }
+.row::after {
+  content:"";
+  clear: both;
+}
+
+.column1 {
+width: 15%;
+padding: 5px;
+
+}
+
+.column2 {
+width:15%;
+padding: 5px;
+text-align: right;
+
+}
+
+@media screen and (min-width: 800px) {
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+}
+  .Image2 {
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+      } /* the width and height are experimental it didn't go to middle right*/ 
+
+      div {
+    text-decoration: underline;
+      }
+
+      h2 {
+  text-align: center;
+  text-decoration: underline;
+}
